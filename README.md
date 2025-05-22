@@ -7,6 +7,25 @@ It also provides following capabilities.
 
 ![Sample](images/claude-python-agent.png)
 
+## Prerequisites
+* uv package manager
+* Python
+
+## Running locally
+* Clone the project, navigate to the project directory and initiate it with uv:
+```bash
+    * uv init
+```
+* Create virtual environment and activate it:
+```bash
+    * uv venv
+    * source .venv/bin/activate
+```
+* Install dependencies:
+```bash
+    * uv add mcp arxiv
+```
+
 ## Configuration for Claude Desktop
 
 You will need to supply a configuration for the server for your MCP Client. Here's what the configuration looks like for [claude_desktop_config.json](https://modelcontextprotocol.io/quickstart/user):
