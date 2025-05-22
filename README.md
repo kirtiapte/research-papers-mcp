@@ -14,16 +14,16 @@ It also provides following capabilities.
 ## Running locally
 * Clone the project, navigate to the project directory and initiate it with uv:
 ```bash
-    * uv init
+    uv init
 ```
 * Create virtual environment and activate it:
 ```bash
-    * uv venv
-    * source .venv/bin/activate
+    uv venv
+    source .venv/bin/activate
 ```
 * Install dependencies:
 ```bash
-    * uv add mcp arxiv
+    uv add mcp arxiv
 ```
 
 ## Configuration for Claude Desktop
