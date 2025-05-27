@@ -6,8 +6,11 @@ from mcp.server.fastmcp import FastMCP
 
 PAPER_DIR = "papers"
 
+# Get port from environment variable (for Cloud Foundry) or default to 8001
+port = int(os.environ.get('PORT', 8001))
+
 # Initialize FastMCP server
-mcp = FastMCP("research", port=8001)
+mcp = FastMCP("research", port=port)
 
 @mcp.tool()
 def search_papers(topic: str, max_results: int = 5) -> List[str]:
