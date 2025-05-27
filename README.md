@@ -39,13 +39,17 @@ You will need to supply a configuration for the server for your MCP Client. Here
             "args": [
                 "-y",
                 "@modelcontextprotocol/server-filesystem",
-                "."
+                "/{your-project-path}/research-papers-mcp/"
             ]
         },
         
         "research": {
-            "command": "uv",
-            "args": ["run", "research_server.py"]
+            "command": "/{your-uv-install-path}/uv",
+            "args": [
+              "--directory",
+              "/{your-project-path}/research-papers-mcp/",
+              "run",
+              "research_server.py"]
         },
         
         "fetch": {
