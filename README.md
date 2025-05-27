@@ -47,7 +47,7 @@ You will need to supply a configuration for the server for your MCP Client. Here
             "command": "/{your-uv-install-path}/uv",
             "args": [
               "--directory",
-              "/{your-project-path/}/research-papers-mcp/",
+              "/{your-project-path}/research-papers-mcp/",
               "run",
               "research_server.py"]
         },
