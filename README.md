@@ -69,7 +69,7 @@ Model Context Protocol (MCP) servers are lightweight programs that expose specif
 
 ### Create a user-provided service that provides the URL for an existing MCP server:
 ```
-cf cups mcp-server -p '{"mcpServiceURL":"https://your-research-mcp-server.example.com"}'
+cf cups research-mcp-server -p '{"mcpServiceURL":"https://your-research-mcp-server.example.com"}'
 ```
 ### Bind the MCP service to your application:
 ```
